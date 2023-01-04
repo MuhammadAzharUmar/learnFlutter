@@ -1,0 +1,31 @@
+/* element selector */
+p{
+    color: crimson;
+}
+/* id selector --> id is unique */
+#frm{
+    background-color: chartreuse;
+}
+/* class selector class is unique and can be used for multiple element to give them same design  */
+.list{
+    color: darkgoldenrod;
+}
+
+
+/* positioning */
+#one{
+    background: red;
+    position: fixed;
+}
+#two{
+    background: green;
+    position: relative;
+
+}
+#three{
+    background: blue;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}

@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    color: black;
+    background-color: #dcdcdc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    cursor: pointer;
+    height: 30px;
+    width: auto;
+    margin-left: 30px;
+}
+.nav_link{
+    list-style: none;
+}
+.nav_link li{
+display: inline-block;
+padding: 0px,20px;
+margin-right: 3rem;
+}
+.nav_link li a{
+    transition: all 0.3s ease 0s ;
+    color: black;
+}
+.nav_link li a:hover{
+    color: red;
+}
+
+
+/* //main  */
+.img01{
+    height: 40vw;
+    width: 100%;
+    display: block;
+}
+.div1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    
+
+}
+.content1{
+    margin-left: 30px;
+}
+
+/* footer  */
+footer{
+    background-color: goldenrod;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logoss{
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.ftr:hover{
+color: red;
+transition: 0.3s ease 0s;
+}

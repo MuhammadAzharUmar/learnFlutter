@@ -1,0 +1,25 @@
+div{
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    position: static;
+}
+
+
+
+a{height: 30px;
+    margin-left: 50px;
+    margin-right: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    width: 100%;
+    height: auto;
+    
+}
