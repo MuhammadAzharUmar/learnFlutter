@@ -3,6 +3,7 @@ import 'package:class10/listviewbuilder.dart';
 import 'package:class10/grdvw.dart';
 import 'package:class10/grdVwCount.dart';
 import 'package:class10/grdvwbldr.dart';
+import 'package:class10/setstate.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,6 +18,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -152,8 +154,27 @@ class _MyAppState extends State<MyApp> {
                       );
                     }),
                   ),
+                  ListTile(
+                    leading: const CircleAvatar(
+                      radius: 20,
+                      child: Icon(Icons.handshake_rounded),
+                    ),
+                    title: const Text("SetState((){})"),
+                    subtitle: const Text(
+                        "Simple State Management to change value dynamically"),
+                    trailing: Builder(builder: (context) {
+                      return GestureDetector(
+                        onTap: () => Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const MySetState())),
+                        child: const Icon(Icons.navigate_next),
+                      );
+                    }),
+                  ),
                 ],
               )),
+         
           body: const TabBarView(
             children: [
               Page1(),
