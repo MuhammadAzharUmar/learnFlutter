@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:math_expressions/math_expressions.dart';
 
+
 class Calculator extends StatefulWidget {
   const Calculator({super.key});
 
@@ -109,7 +110,7 @@ class _CalculatorState extends State<Calculator> {
                           backgroundColor:
                               MaterialStateProperty.all(Colors.black),
                           padding: MaterialStateProperty.all(
-                              const EdgeInsets.all(32)),
+                              const EdgeInsets.all(30)),
                           textStyle: MaterialStateProperty.all(
                               const TextStyle(fontSize: 30))),
                       child: const Image(
