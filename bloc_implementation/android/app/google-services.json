@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "816391282971",
+    "project_id": "fitness-tracking-81dc9",
+    "storage_bucket": "fitness-tracking-81dc9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816391282971:android:f0487adf993740fc6c33be",
+        "android_client_info": {
+          "package_name": "com.example.bloc_implementation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816391282971-jnfk5r89i4ackrui31n10lfhtsjunsfg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLRFL76gERMzU8YgxbK472PeS7WbBy2dw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816391282971-jnfk5r89i4ackrui31n10lfhtsjunsfg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816391282971:android:87621c5dfb60df0d6c33be",
+        "android_client_info": {
+          "package_name": "com.example.fitness_tracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816391282971-ojfodqi2p8104s8ne0qnb67e6o21jsls.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fitness_tracking",
+            "certificate_hash": "b672e49d45b0b093936264a8ee6d5655c3c409f9"
+          }
+        },
+        {
+          "client_id": "816391282971-jnfk5r89i4ackrui31n10lfhtsjunsfg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLRFL76gERMzU8YgxbK472PeS7WbBy2dw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816391282971-jnfk5r89i4ackrui31n10lfhtsjunsfg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

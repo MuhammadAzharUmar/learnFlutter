@@ -85,10 +85,34 @@ class _RegisterState extends State<Register> {
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
                 Container(
+                  // decoration: BoxDecoration(
+                  //     // color: Colors.purple[800],
+                  //     borderRadius: const BorderRadius.all(Radius.circular(50)),
+                  //     boxShadow: [
+                  //       BoxShadow(
+                  //         color: (Colors.purple[900])!,
+                  //         blurRadius: 15,
+                  //         spreadRadius: 2,
+                  //         offset:const Offset(5, 5),
+                  //         blurStyle: BlurStyle.outer,
+                  //       ),
+                  //       const BoxShadow (
+                  //         color: (Colors.white),
+                  //         blurRadius: 15,
+                  //                                   offset:Offset(-5, -5),
+
+                  //         spreadRadius: 2,
+                  //         blurStyle: BlurStyle.outer,
+                  //       ),
+                  //     ]),
                   margin: const EdgeInsets.only(bottom: 20),
                   width: MediaQuery.of(context).size.width * .5,
                   height: MediaQuery.of(context).size.height * .2,
-                  child: Image.asset('assets/register.png'),
+                  child: Image.asset('assets/register.png',
+                  // width: MediaQuery.of(context).size.width * .5,
+                  // height: MediaQuery.of(context).size.height * .2,
+                  // fit: BoxFit.fill,
+                  ),
                 ),
                 TextField(
                   controller: usernameController,
